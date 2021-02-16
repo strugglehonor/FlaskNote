@@ -1,0 +1,26 @@
+### let和const
+### 模板字符串
+### 函数
+#### 默认参数：
+es5的写法
+```javascript
+<script>
+    // es5的写法
+    function add(a, b){
+        a = a || 10;
+        b = b || 20;
+        return a+b;
+    }
+    console.log(add())
+</script>
+```
+es6的写法
+```javascript
+<script>
+    function add(a=10, b=20){
+        return a+b;
+    }
+    console.log(add())
+</script>
+```
+### 解构赋值
